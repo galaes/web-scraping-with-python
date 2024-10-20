@@ -22,7 +22,19 @@ The primary goal of this project is building web scraping tool that automates th
 ## Implementation Steps
 
 - Inspect Web Page Structre: Analyze the HTML structure of the Amazon product page to locate relevant data points.
+
 - Develop Scraper: Write Python scripts using BeautifulSoup and Requests to fetch and parse product information.
+```python
+#import libraries
+from bs4 import BeautifulSoup
+import requests
+import time
+import datetime
+import smtplib
+import pandas as pd
+
+```
+
 - Handle Dynamic Content: If necessary, integrate Selenium to handle JavaScript-generated content or CAPTCHA.
 - Data Storage: Store the scraped data in a CSV file or SQL database.
 - Error Handling and Optimization: Implement mechanisms to handle potential errors (e.g., missing data, changes in HTML structure) and optimize performance (e.g., managing request rate to avoid blocking).
