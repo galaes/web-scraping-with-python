@@ -23,6 +23,8 @@ The primary goal of this project is building web scraping tool that automates th
 
 - Inspect Web Page Structre: Analyze the HTML structure of the Amazon product page to locate relevant data points.
 
+<img src="images/webpage.png" width="70%" alt="images">
+
 - Develop Scraper: Write Python scripts using BeautifulSoup and Requests to fetch and parse product information.
 
 ```python
@@ -49,6 +51,8 @@ rating = soup2.find(class_='a-icon-alt').get_text(strip=True)
 total_of_ratings = soup2.find(id='acrCustomerReviewText').get_text(strip=True)
 ```
 
+<img src="images/output1.png" width="80%" alt="images">
+
 - Error Handling and Optimization: Implement mechanisms to handle unneccesary values and blank spaces.
 
 ```python
@@ -59,6 +63,7 @@ total_of_ratings = total_of_ratings[0:5]
 # Create a Timestamp to track when data was collected
 today = datetime.date.today()
 ```
+<img src="images/output2.png" width="80%" alt="images">
 
 - Data Storage: Store the scraped data in a CSV file.
 
@@ -78,6 +83,7 @@ with open('AmazonWebScraperDataset.csv', 'a+', newline='', encoding='UTF8') as f
     writer = csv.writer(f)
     writer.writerow(data)
 ```
+<img src="images/date.png" width="10%" alt="images">
 
 ## Deliverables:
 - Python scripts for web scraping.
