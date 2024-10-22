@@ -1,5 +1,10 @@
 # Web Scraping With Python
 
+## Table of Contents
+  - [Objective](#objective)
+  - [Scope of Work](#scope-of-work)
+  - [Implementation Steps](#implementation-steps)
+  
 ## Objective
 
 The primary goal of this project is building web scraping tool that automates the process of collecting product information from Amazon such as name, price, and customer reviews. The scraped data will provide insights into market trends, pricing fluctuations, and product popularity over time.
