@@ -4,6 +4,7 @@
   - [Objective](#objective)
   - [Scope of Work](#scope-of-work)
   - [Implementation Steps](#implementation-steps)
+  - [Deliverables](#deliverables)
   
 ## Objective
 
