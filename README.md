@@ -27,6 +27,8 @@ The primary goal of this project is building web scraping tool that automates th
 
 ## Implementation Steps
 
+[Python Code](https://github.com/galaes/web-scraping-with-python/blob/a4d4e233ccdfe5dbef1d9551312270a9603c1967/Amazon%20Web%20Scraper%20Project.ipynb)
+
 - Inspect Web Page Structure: Analyze the HTML structure of the Amazon product page to locate relevant data points.
 
 <img src="images/webpage.png" width="70%" alt="images">
